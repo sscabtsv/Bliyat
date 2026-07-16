@@ -335,7 +335,7 @@ namespace eclipse::hacks::Bot {
         [[nodiscard]] const char* getId() const override { return "Bot"; }
     };
 
-    REGISTER_HACK(Bot)
+    // REGISTER_HACK(Bot)
 
     class $modify(BotPLHook, PlayLayer) {
         bool init(GJGameLevel* gj, bool p1, bool p2) {
